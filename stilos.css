@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body{
+    font-family: "Patrick Hand";
+    background-color: rgb(110, 110, 110);
+    margin: 5%;
+    line-height: 1.6;
+
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    
+
+}
+
+header{
+    text-align: center;
+    color:rgb(88, 195, 277);
+    padding: 20px 0;
+    border-radius: 8px;
+    background-image: url('./img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid #4545cf;
+    box-shadow: 0 0 10px;
+
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+
+}
+
+
+.container{
+    background-color: rgb(101, 78, 107);
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+.container_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #383874;
+    margin: 5%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.container_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.cabecera{
+    position: relative
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgba(16, 78, 78, 0.1);
+}
+
+section{
+    background-color: rgb(155, 172, 185);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+section hr{
+    border: 0;
+    height: 2px;
+    background: #298347;
+    margin: 10px 0;
+}
+
+i{
+    color: rgb(50, 58, 58);
+    margin-right: 8px;
+
+}
+
+ul{
+    list-style: none;
+    color: black;
+
+}
+
+ul li{
+    padding: 5px 0;
+    color: black;
+}
+
+address a{
+    color: #383874;
+    text-decoration: none;
+}
+address p{
+    margin: 5px 0;
+
+}
+
+aeticle{
+    margin-bottom: 15px;
+
+}
